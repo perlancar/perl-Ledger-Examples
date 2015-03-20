@@ -1,0 +1,19 @@
+01/01 desc
+ income     -$100
+ assets
+
+01/02 desc
+ income     $ -200
+ assets
+
+01/03 desc
+ income     -300$
+ assets
+
+01/04 desc
+ income     -400 $
+ assets
+
+; at the end, assets' balance should be $1000. this demonstrates that currency
+; or commodity symbol can be placed before or after the number, with/without
+; spaces.

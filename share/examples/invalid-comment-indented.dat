@@ -1,0 +1,3 @@
+; indented comments are not allowed unless they are inside a transaction and uses ;
+
+  ; This is a single line comment,

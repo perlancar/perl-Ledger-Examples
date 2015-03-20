@@ -1,0 +1,29 @@
+; various syntax for transaction
+
+2015/03/20 tx1 ; not a comment
+ expenses:some department  10000
+ assets:cash  -10000
+
+2015/03/20 tx2  ; comment
+ expenses:some department  10000
+ assets:cash; null amount is allowed for one posting per tx
+
+2015/03/21 ! tx3 with state 'pending'
+ ; amount syntax: symbol at the front
+ expenses:some department    $100
+ expenses:some department   Rp100
+ assets:savings
+ ; savings will have two commodities: $ & Rp
+
+2015/03/21 * tx4 with state 'cleared
+ ; amount syntax: symbol after
+ income:etc              -100$
+ income:etc              -100 COMODITY_ONE ; digit is not allowed in commodity, even after number
+ assets:savings
+
+03/21 tx5
+ ; amount syntax: decimal separator & thousand separator
+ income:etc              -12,000.00 $
+ income:etc              -0,3 IDR
+ assets:savings
+
