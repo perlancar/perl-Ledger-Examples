@@ -1,0 +1,12 @@
+2015-03-25  description
+  foo  -100
+  bar
+
+; parentheses between amount is recognized, but is not interpreted as negative
+; number but as value expression
+
+;2015-03-26  description2
+;  foo  (100)
+;  bar   100
+
+
