@@ -1,0 +1,6 @@
+; there is only a single posting, and the amount is null. ledger allows this and
+; assume the account is never filled
+
+2015/03/26 description
+ account
+

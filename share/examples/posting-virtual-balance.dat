@@ -1,0 +1,10 @@
+; for virtual accounts that must balance (the ones which are surrounded by
+; [...]), the balance is calculated against the other real accounts, instead of
+; against other virtual accounts. in the example below, another will be given
+; the value of 0.
+
+2015/03/26 description
+  account             100
+ [virtual account]   -100
+  another
+

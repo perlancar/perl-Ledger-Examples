@@ -1,0 +1,7 @@
+; ledger 3 actually allows this and assume the name of the account as
+; '[account', but i'd rather be more strict here.
+
+2015/03/26 description
+ [account    100
+  another
+
