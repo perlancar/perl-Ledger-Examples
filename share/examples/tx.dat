@@ -21,9 +21,15 @@
  income:etc              -100 COMODITY_ONE ; digit is not allowed in commodity, even after number
  assets:savings
 
-03/21 tx5
+; date is either YYYY-MM-DD or MM-DD, '-' can be replaced with '/'
+
+; a second date called "effective date" (which can mean whatever you want to
+; mean, e.g. book date) can be added after the primary "transaction date" or
+; "actual date". in the example below, 20 march is the actual date, and 21 march
+; is the effective (book) date.
+
+03/20=03/21 tx5
  ; amount syntax: decimal separator & thousand separator
  income:etc              -12,000.00 $
  income:etc              -0,3 IDR
  assets:savings
-
