@@ -1,0 +1,5 @@
+; The transaction is valid but the file has no empty end line
+
+2015/03/20 fl1 ; floating point
+ expenses:some department  1000
+ assets:cash  -1000
