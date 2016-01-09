@@ -1,0 +1,7 @@
+; The transaction is valid but not balanced if using standard floating point computations
+
+2015/03/20 fl1 ; floating point
+ expenses:some department  0.1
+ expenses:some department  0.2
+ assets:cash  -0.3
+
