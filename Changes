@@ -1,5 +1,11 @@
 Revision history for Ledger-Examples
 
+0.03     2016-01-11 (PERLANCAR)
+
+         - Add examples: no-newline-at-eof.dat & floating-rounding.dat
+           [VDANJEAN].
+
+
 0.02     2015-03-26 (PERLANCAR)
 
          - Add more examples.
