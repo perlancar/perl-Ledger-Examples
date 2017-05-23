@@ -22,7 +22,8 @@
  assets:savings
 
 ; date is either YYYY-MM-DD or MM-DD, '-' can be replaced with '/'. ledger
-; doesn't seem to support time of day (hour, minute, second).
+; doesn't seem to support time of day (hour, minute, second), although it
+; supports timelog entries for timekeeping (see timelog.dat).
 
 ; a second date called "effective date" (which can mean whatever you want to
 ; mean, e.g. book date) can be added after the primary "transaction date" or

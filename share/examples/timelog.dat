@@ -1,0 +1,20 @@
+; Ledger directly supports "timelog" entries, which have this form:
+
+i 2013/03/28 22:13:00 ACCOUNT[  PAYEE]
+o 2013/03/29 03:39:00
+
+; This records a check-in to the given ACCOUNT, and a check-out. You can be
+; checked-in to multiple accounts at a time, if you wish, and they can span
+; multiple days (use --day-break to break them up in the report). The number of
+; seconds between check-in and check-out is accumulated as time to that ACCOUNT.
+; If the checkout uses a capital 'o', the transaction is marked "cleared". You
+; can use an optional PAYEE for whatever meaning you like.
+
+; Now, there are a few ways to generate this information. You can use the
+; timeclock.el package, which is part of Emacs. Or you can write a simple script
+; in whichever language you prefer to emit similar information. Or you can use
+; Org s time-clocking abilities and the org2tc script developed by John Wiegley.
+
+; These timelog entries can appear in a separate file, or directly in your main
+; ledger file. The initial 'i' and 'o' characters count as Ledger "directives",
+; and are accepted anywhere that ordinary transactions are valid.
