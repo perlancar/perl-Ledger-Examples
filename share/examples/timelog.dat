@@ -1,7 +1,7 @@
 ; Ledger directly supports "timelog" entries, which have this form:
 
-i 2013/03/28 22:13:00 ACCOUNT[  PAYEE]
-o 2013/03/29 03:39:00
+; i 2013/03/28 22:13:00 ACCOUNT[  PAYEE]
+; o 2013/03/29 03:39:00
 
 ; This records a check-in to the given ACCOUNT, and a check-out. You can be
 ; checked-in to multiple accounts at a time, if you wish, and they can span
@@ -18,3 +18,10 @@ o 2013/03/29 03:39:00
 ; These timelog entries can appear in a separate file, or directly in your main
 ; ledger file. The initial 'i' and 'o' characters count as Ledger "directives",
 ; and are accepted anywhere that ordinary transactions are valid.
+
+i 2017/06/16 06:05:00 ACCOUNT1
+o 2017/06/16 07:00:00
+
+i 2017/06/16 07:05:00 ACCOUNT1
+i 2017/06/16 07:06:00 ACCOUNT2 PAYEE
+O 2017/06/16 08:00:00
