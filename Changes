@@ -1,30 +1,30 @@
-0.05    2017-06-16 (PERLANCAR)
+0.05    2017-06-16  Released-By: PERLANCAR
 
 	- Fix syntax in timelog.dat.
 
 	- Mark timelog.dat as TODO, for Ledger::Parser.
 
 
-0.04    2017-05-23 (PERLANCAR)
+0.04    2017-05-23  Released-By: PERLANCAR
 
 	- Add sample file: timelog.dat.
 
 	- Add note about not supporting time of day (hour, minute, second).
 
 
-0.03     2016-01-11 (PERLANCAR)
+0.03     2016-01-11  Released-By: PERLANCAR
 
          - Add examples: no-newline-at-eof.dat & floating-rounding.dat
            [VDANJEAN].
 
 
-0.02     2015-03-26 (PERLANCAR)
+0.02     2015-03-26  Released-By: PERLANCAR
 
          - Add more examples.
 
          - [doc] Add description, mention Ledger::Parser.
 
 
-0.01     2015-03-22 (PERLANCAR)
+0.01     2015-03-22  Released-By: PERLANCAR
 
          - First release.
